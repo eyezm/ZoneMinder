@@ -29,6 +29,7 @@
 #include <unistd.h>
 #include <sys/mman.h>
 #include <errno.h>
+#include <limits.h>
 
 static int vidioctl( int fd, int request, void *arg )
 {
